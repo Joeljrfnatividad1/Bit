@@ -132,15 +132,19 @@ async function getHelpMenu({ client, guild }) {
     .setImage(`https://share.creavite.co/663f19346f72a4507e459a7b.gif`)
         .addFields([
         {
-          name: "__**<a:loading:1238429820933640283> Features [1-9]**__",
+          name: "__**<a:loading:1238429820933640283> Features [1-13]**__",
           value: `>>> <:points:1238429964613713960> Admin 
-<:users:1238430170151387186> Anime 
-<:hammer:1238429706454568982> Automod 
-<:cash:1238429069092196352> Economy 
-<:fun:1238429593417945098> Fun 
-<:notification:1238429897920221294> Giveaway 
-<:link:1238429779624071219> Invite 
-<:bot:1238429045243252818> Information`,
+```javascript
+        0. 👑 Owner
+1. 🎉 Fun       |  8. 🛡️ Automod
+2. 🛠️ Admin     |  9. 🎵 Music
+3. 🎁 Giveaways | 10. 🌐 Social
+4. 🖼️ Image     | 11. 📊 Stats
+5. ℹ️ Info        | 12. 💡 Suggestions
+6. ✉️ Invites   | 13. 🎟️ Tickets
+7. 🛠️ Utility
+
+    ````,
           inline: true
         },
         {
