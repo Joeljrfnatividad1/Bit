@@ -156,12 +156,12 @@ async function getHelpMenu({ client, guild }) {
           inline: true
         }
         ])
-    .setDescription(`<a:loading:1238429820933640283> **Emerald GX is here to help. \n > It is a multipourpose bot for your discord. \n > It can help you to build a Super server.**
-<a:loading:1238429820933640283> __**BOT INFO**__
-> <:circle:1238429329231314974> Prefix: \`/\`
-> <:circle:1238429329231314974> Discord.js Version: \`v14.15.2\`
-> <:circle:1238429329231314974> Running on \`Node v20.13.1\`
-> <:circle:1238429329231314974> Made by \`friday.su\``);
+    .setDescription(`**Guard bot is here to help. \n > It is a multipourpose bot for your discord. \n > It can help you to build a Super server.**
+``__**BOT INFO**__``
+> <``I am a powerful 💪,``\`\`
+> <``multifunctional``\`\`
+> <``🔧 Discord bot 🤖``\`\`
+> <``designed to enhance your server experience 🚀.``\`\``);
 
   return {
     embeds: [embed],
