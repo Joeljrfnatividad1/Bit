@@ -70,7 +70,7 @@ module.exports = {
 
   GIVEAWAYS: {
     ENABLED: true,
-    REACTION: ":tada:",
+    REACTION: ":gift:",
     START_EMBED: "#FF468A",
     END_EMBED: "#FF468A",
   },
