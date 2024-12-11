@@ -134,7 +134,7 @@ async function getHelpMenu({ client, guild }) {
         {
           name: "__** Features [1-13]**__",
           value: `>>> i will guild you
-```javascript
+```
         0. 👑 Owner
 1. 🎉 Fun       |  8. 🛡️ Automod
 2. 🛠️ Admin     |  9. 🎵 Music
