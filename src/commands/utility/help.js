@@ -145,18 +145,12 @@ async function getHelpMenu({ client, guild }) {
 7. 🛠️ Utility
 
     ````,
-          inline: true
+          inline: false
         },
         {
           name: "__**<a:loading:1238429820933640283> Features [10-18]**__",
           value: `>>> <:gear:1238429625055444993> Moderation 
-<:fav_songs:1238429574677790810> Music 
-<:lock:1238429844803686460> Owner 
-<:com:1238429485817135226> Social 
-<:chart:1238429306938462238> Statistics 
-<:claim:1238429350655823912> Suggestions 
-<:transcript:1238430085795545139> Ticket 
-<:search:1238430047615058001> Utility `,
+Discord invite: https://discord.gg/awTMRAms `,
           inline: true
         }
         ])
@@ -180,7 +174,7 @@ async function getHelpMenu({ client, guild }) {
  * @param {string} prefix
  */
 const waiter = (msg, userId, prefix) => {
-  const collector = msg.channel.createMessageComponentCollector({
+  const collector = msg.channel.cageComponentCollector({
     filter: (reactor) => reactor.user.id === userId && msg.id === reactor.message.id,
     idle: IDLE_TIMEOUT * 1000,
     dispose: true,
@@ -379,7 +373,7 @@ function getMsgCategoryEmbeds(client, category, prefix) {
       .setAuthor({ name: `${category} Commands` })
       .setDescription(item.join("\n"))
       .setFooter({
-        text: `page ${index + 1} of ${arrSplitted.length} | Type ${prefix}help <command> for more command information`,
+        text: `guard bot | thank you for joining me i will do my best to make you happy`,
       });
     arrEmbeds.push(embed);
   });
