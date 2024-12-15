@@ -62,6 +62,7 @@ module.exports = {
         host: "lavalink.clxud.dev",
         port: 2333,
         password: "youshallnotpass",
+        id: "node",
         secure: false,
       },
     ],
